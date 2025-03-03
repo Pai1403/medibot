@@ -1,0 +1,19 @@
+# Core dependencies
+streamlit==1.30.0
+langchain==0.1.17
+langchain-community==0.0.30
+requests==2.31.0
+
+# Ollama LLM integration
+ollama==0.1.15  # Ensure latest version of Ollama
+
+# Memory handling
+chromadb==0.4.22
+sentence-transformers==2.2.2  # Required for embeddings
+
+# LLM Backend (Ensure PyTorch compatibility)
+torch==2.1.2
+transformers==4.37.2
+
+# Optional: If using embeddings for RAG
+faiss-cpu==1.7.4
