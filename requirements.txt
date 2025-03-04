@@ -13,7 +13,7 @@ sentence-transformers==2.2.2  # Required for embeddings
 
 # LLM Backend (Ensure PyTorch compatibility)
 torch==2.1.2
-transformers==4.37.2
+transformers== 4.48.0
 
 # Optional: If using embeddings for RAG
 faiss-cpu==1.7.4
