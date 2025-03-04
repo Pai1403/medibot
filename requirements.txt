@@ -1,11 +1,11 @@
 # Core dependencies
 streamlit==1.30.0
-langchain==0.1.17
-langchain-community==0.0.30
+langchain
+langchain-community
 requests==2.31.0
 
 # Ollama LLM integration
-ollama==0.1.15  # Ensure latest version of Ollama
+ollama# Ensure latest version of Ollama
 
 # Memory handling
 chromadb==0.4.22
